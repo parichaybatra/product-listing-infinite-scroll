@@ -8,7 +8,7 @@ const Rating = (props) => {
         variant="body2"
         color="textSecondary"
         component="p"
-        style={{ paddingLeft: "0.25rem" }}
+        id="review-conatiner"
       >
         {` (${props.data.rating_count}   Reviews) `}
       </Typography>

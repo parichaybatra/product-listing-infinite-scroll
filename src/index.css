@@ -12,10 +12,59 @@ code {
     monospace;
 }
 
+#striked-price {
+  text-decoration: line-through;
+  margin-left: auto;
+}
+
+#price-conatiner {
+  display: block;
+}
+
+#product-content-container {
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+#product-card-action-reviews {
+  padding: 0;
+}
+
+#product-discount-container {
+  margin-left: auto;
+  color: #00bb19;
+}
+
+#product-card-action-price {
+  padding-top: 0;
+}
+
+#rating-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#rating-container .MuiIconButton-label {
+  color: #fcdb4c;
+}
+
+#review-conatiner {
+  padding-left: 0.25rem;
+}
+
+.rating-block-container {
+  min-height: 1rem;
+}
+
+.description-block-conatiner {
+  min-height: 2.5rem;
+}
 @media only screen and (max-width: 950px) {
   .makeStyles-root-1 {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
+    padding: 0.5rem !important;
+  }
+  .jss1 {
+    padding: 0.5rem !important;
   }
 
   .MuiTypography-h4 {
@@ -37,8 +86,10 @@ code {
 
 @media only screen and (max-width: 600px) {
   .makeStyles-root-1 {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
+    padding: 0.5rem !important;
+  }
+  .jss1 {
+    padding: 0.5rem !important;
   }
   .MuiTypography-h4 {
     font-size: 0.75rem !important;

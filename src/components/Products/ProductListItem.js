@@ -14,6 +14,7 @@ import Price from "./Price";
 const useStyles = makeStyles((theme) => ({
   root: {
     boxShadow: "0 3px 5px 0 rgba(0,0,0,.16)",
+    padding: "0.5rem",
   },
   media: {
     height: 0,
@@ -29,28 +30,28 @@ function ProductListItem(props) {
   return (
     <>
       <Grid item xs={6} md={3}>
-        <Card className={classes.root} style={{ padding: "0.5rem" }}>
+        <Card className={classes.root}>
           <CardMedia
             className={classes.media}
             image={props.data.showImage}
             title={props.data.name}
           />
-          <CardContent style={{ paddingTop: "1rem", paddingBottom: "0" }}>
+          <CardContent id="product-content-container">
             <Typography
               variant="body2"
               color="textSecondary"
               component="p"
               title={props.data.name}
-              style={{ minHeight: "2.5rem" }}
+              className="description-block-conatiner"
             >
               {props.data.name}
             </Typography>
           </CardContent>
-          <CardActions disableSpacing style={{ padding: 0 }}>
+          <CardActions disableSpacing id="product-card-action-reviews">
             {props.data.avg_rating && props.data.avg_rating > 0 ? (
               <Rating data={props.data} />
             ) : (
-              <Typography style={{ minHeight: "1rem" }}></Typography>
+              <Typography class="rating-block-container"></Typography>
             )}
 
             {props.data.rating_count ? (
@@ -59,12 +60,12 @@ function ProductListItem(props) {
               <Typography></Typography>
             )}
           </CardActions>
-          <CardActions disableSpacing style={{ paddingTop: "0" }}>
-            <Price data={props.data} style={{ display: "block" }} />
+          <CardActions disableSpacing id="product-card-action-price">
+            <Price id="price-conatiner" data={props.data} />
             <Typography
               variant="h6"
               component="h2"
-              style={{ marginLeft: "auto", color: "#00bb19" }}
+              id="product-discount-container"
             >
               {Math.ceil(
                 ((props.data.strikeprice - props.data.price) /

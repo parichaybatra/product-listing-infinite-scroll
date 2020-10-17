@@ -9,10 +9,10 @@ const Rating = (props) => {
       </Typography>
 
       <Typography
+        id="striked-price"
         variant="h6"
         color="textSecondary"
         component="p"
-        style={{ textDecoration: "line-through", marginLeft: "auto" }}
       >
         &#8377;{props.data.strikeprice}
       </Typography>
