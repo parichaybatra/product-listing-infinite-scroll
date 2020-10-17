@@ -55,7 +55,9 @@ code {
 .rating-block-container {
   min-height: 1rem;
 }
-
+.review-block-container {
+  min-height: 3rem;
+}
 .description-block-conatiner {
   min-height: 2.5rem;
 }

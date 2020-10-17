@@ -10,6 +10,7 @@ import { red } from "@material-ui/core/colors";
 import Rating from "./Rating";
 import Reviews from "./Reviews";
 import Price from "./Price";
+import Discount from "./Discount";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -51,29 +52,18 @@ function ProductListItem(props) {
             {props.data.avg_rating && props.data.avg_rating > 0 ? (
               <Rating data={props.data} />
             ) : (
-              <Typography class="rating-block-container"></Typography>
+              <Typography className="rating-block-container"></Typography>
             )}
 
             {props.data.rating_count ? (
               <Reviews data={props.data} />
             ) : (
-              <Typography></Typography>
+              <Typography className="review-block-container"></Typography>
             )}
           </CardActions>
           <CardActions disableSpacing id="product-card-action-price">
             <Price id="price-conatiner" data={props.data} />
-            <Typography
-              variant="h6"
-              component="h2"
-              id="product-discount-container"
-            >
-              {Math.ceil(
-                ((props.data.strikeprice - props.data.price) /
-                  props.data.strikeprice) *
-                  100
-              )}{" "}
-              {"%"}
-            </Typography>
+            <Discount data={props.data} />
           </CardActions>
         </Card>
       </Grid>
