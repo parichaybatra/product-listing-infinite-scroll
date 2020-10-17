@@ -6,9 +6,7 @@ import Products from "./components/Products/index";
 function App() {
   return (
     <div>
-      <header className="App-header">
-        <Products></Products>
-      </header>
+      <Products></Products>
     </div>
   );
 }

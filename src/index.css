@@ -19,7 +19,19 @@ code {
   }
 
   .MuiTypography-h4 {
+    font-size: 0.75rem !important;
+  }
+
+  .MuiTypography-h5 {
     font-size: 1rem !important;
+  }
+
+  .MuiTypography-h6 {
+    font-size: 0.75rem !important;
+  }
+
+  body {
+    font-size: 0.75rem !important;
   }
 }
 
@@ -27,6 +39,20 @@ code {
   .makeStyles-root-1 {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
+  }
+  .MuiTypography-h4 {
+    font-size: 0.75rem !important;
+  }
+
+  .MuiTypography-h5 {
+    font-size: 1rem !important;
+  }
+  .MuiTypography-h6 {
+    font-size: 0.75rem !important;
+  }
+
+  body {
+    font-size: 0.75rem !important;
   }
 }
 

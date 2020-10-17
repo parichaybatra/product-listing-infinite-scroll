@@ -62,7 +62,7 @@ function ProductListItem(props) {
           <CardActions disableSpacing style={{ paddingTop: "0" }}>
             <Price data={props.data} style={{ display: "block" }} />
             <Typography
-              variant="h5"
+              variant="h6"
               component="h2"
               style={{ marginLeft: "auto", color: "#00bb19" }}
             >
