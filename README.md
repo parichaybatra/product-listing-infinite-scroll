@@ -1,5 +1,5 @@
 This project is a basic implementation of a product listing page optimised for both mobile and desktop devices.
-The project is deployed on netlify and can be viewed at [https://mylo-assignment.netlify.app/](Mylo-product-listing)
+The project is deployed on netlify and can be viewed at [Mylo-product-listing](https://mylo-assignment.netlify.app/)
 
 ## Desktop Lighthouse Audit Results
 
