@@ -3,11 +3,11 @@ The project is deployed on netlify and can be viewed at [https://mylo-assignment
 
 ## Desktop Lighthouse Audit Results
 
-![alt text](https://github.com/parichaybatra/product-listing-infinite-scroll/screenshots/desktop-lighthouse-audit.png)
+![Desktop Lighthouse Audit Results](https://github.com/parichaybatra/product-listing-infinite-scroll/blob/main/screenshots/desktop-lighthouse-audit.png)
 
 ## Mobile Lighthouse Audit Results
 
-![alt text](https://github.com/parichaybatra/product-listing-infinite-scroll/screenshots/mobile-lighthouse-audit.png)
+![Mobile Lighthouse Audit Results](https://github.com/parichaybatra/product-listing-infinite-scroll/blob/main/screenshots/mobile-lighthouse-audit.png)
 
 ## Features
 
