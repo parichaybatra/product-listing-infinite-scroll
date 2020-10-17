@@ -16,6 +16,14 @@ The project is deployed on netlify and can be viewed at [Mylo-product-listing](h
 - Infinite scrolling using IntersectionObserver
 - Optimised for both Mobile and Desktop devices
 
+## Desktop View
+
+![Desktop View](https://github.com/parichaybatra/product-listing-infinite-scroll/blob/main/screenshots/desktop-view.png)
+
+## Mobile View
+
+![Mobile View](https://github.com/parichaybatra/product-listing-infinite-scroll/blob/main/screenshots/mobile-view.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
