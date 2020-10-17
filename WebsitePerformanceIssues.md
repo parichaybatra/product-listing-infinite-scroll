@@ -40,7 +40,7 @@ We can improve the lighthouse audit matrix by fixing the above mentioned issues 
 
 3. In browse by products section, when filters are used, errors are coming in console, will need to check the code for exact problem.
 
-![Errors in console while using filters](https://github.com/parichaybatra/product-listing-infinite-scroll/blob/main/screenshots/console-errors-while-filtering-products)
+![Errors in console while using filters](https://github.com/parichaybatra/product-listing-infinite-scroll/blob/main/screenshots/console-errors-while-filtering-products.png)
 
 4. View All Products button should not be there in desktop view, infinite scroll should be there instead, similar to that in mobile view.
 
